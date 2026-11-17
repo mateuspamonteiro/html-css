@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 13 — Agrupando colunas</title>
+
+<style>
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 24px; color: #222; background: #f5f7fa; }
+main { max-width: 950px; margin: auto; background: white; padding: 24px; border-radius: 12px; }
+h1 { color: #174a7e; }
+table { border-collapse: collapse; width: 100%; margin: 18px 0; }
+caption { font-weight: bold; padding: 10px; }
+th, td { border: 1px solid #555; padding: 10px; text-align: center; }
+thead, tfoot { background: #dceaf7; }
+tbody tr:nth-child(even) { background: #eef3f8; }
+.note { background: #fff6d9; padding: 12px; border-left: 4px solid #d5a400; }
+.wrapper { overflow-x: auto; }
+.sticky thead th { position: sticky; top: 0; background: #174a7e; color: white; }
+.wide { min-width: 780px; }
+</style>
+
+</head>
+<body><main>
+<h1>Aula 13 — Agrupando colunas</h1>
+<p><code>colgroup</code> organiza colunas para aplicar estilos. Cada <code>col</code> representa uma coluna; <code>span</code> permite agrupar várias.</p><table><colgroup><col style="background:#fce8e6"><col span="2" style="background:#e6f4ea"><col style="background:#e8f0fe"></colgroup><tr><th>Nome</th><th>HTML</th><th>CSS</th><th>JavaScript</th></tr><tr><td>Ana</td><td>9</td><td>8</td><td>7</td></tr><tr><td>Bruno</td><td>8</td><td>9</td><td>8</td></tr></table>
+<p><a href="../LEIA-ME.txt">Voltar ao guia</a></p>
+</main></body>
+</html>

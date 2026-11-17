@@ -1,0 +1,29 @@
+# Estudo — Tabelas HTML (Curso em Vídeo, Módulo 3, Capítulo 21)
+
+Este pacote contém exemplos didáticos originais para praticar os assuntos das 14 aulas sobre tabelas.
+Não é uma transcrição literal dos códigos do professor.
+
+## Como usar
+1. Extraia a pasta ZIP.
+2. Abra a pasta no VS Code.
+3. Abra qualquer arquivo `.html`.
+4. Clique com o botão direito e escolha **Open with Live Server** (se tiver a extensão) ou abra o arquivo no navegador.
+
+## Aulas
+01. Quando usar tabelas — tabelas para dados, não para montar o layout do site.
+02. Primeira tabela — `table`, `tr`, `th`, `td`.
+03. Alinhamento — `text-align` e `vertical-align`.
+04. Tabelas grandes — `thead`, `tbody`, `tfoot`.
+05. Caption e escopo — `caption` e `scope`.
+06. Efeito zebrado — `:nth-child()`.
+07. Cabeçalho fixo — `position: sticky`.
+08. Mesclagem — `colspan` e `rowspan`.
+09. Desafio parte 1 — tabelas com células mescladas.
+10. Tabela completa — estrutura semântica e estilo.
+11. Escopos de grupo — `scope="colgroup"` e `scope="rowgroup"`.
+12. Desafio parte 2 — tabela completa com agrupamentos.
+13. Agrupando colunas — `colgroup` e `col`.
+14. Tabela responsiva — `overflow-x: auto`.
+
+## Sobre os desafios
+O capítulo oficial apresenta exercícios de mesclagem de células e indica o Desafio 013 no repositório público do curso. Os arquivos em `desafios/` são resoluções-modelo para estudo, feitas com dados de exemplo. Compare com o enunciado original antes de entregar qualquer atividade.

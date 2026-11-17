@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desafio 013 — tabelas mescladas</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fa;margin:24px;color:#222}
+main{max-width:900px;margin:auto;background:white;padding:24px;border-radius:12px}
+table{border-collapse:collapse;margin:22px auto;width:100%;max-width:650px}
+caption{font-weight:bold;padding:8px}
+th,td{border:1px solid #333;padding:14px;text-align:center}
+th{background:#dceaf7}
+</style></head><body><main>
+<h1>Desafio 013 — tabelas com células mescladas</h1>
+<p>Resolução-modelo autoral para treinar <code>colspan</code> e <code>rowspan</code>. Compare a disposição com as imagens do enunciado original.</p>
+<table>
+<caption>Tabela 1 — números</caption>
+<tr><td colspan="4">A</td><td rowspan="4">B</td></tr>
+<tr><td rowspan="3">C</td><td>D</td><td>E</td><td>F</td></tr>
+<tr><td colspan="3">G</td></tr>
+<tr><td>H</td><td colspan="2">I</td></tr>
+</table>
+<table>
+<caption>Tabela 2 — letras</caption>
+<tr><td colspan="3">A</td><td rowspan="3">B</td></tr>
+<tr><td rowspan="2">C</td><td>D</td><td>E</td></tr>
+<tr><td colspan="2">F</td></tr>
+</table>
+<table>
+<caption>Tabela 3 — exemplo de mesclagem combinada</caption>
+<tr><th colspan="4">Filmes favoritos</th></tr>
+<tr><th rowspan="3">Mulheres</th><td>Ana</td><td>Filme A</td><td>Filme B</td></tr>
+<tr><td>Beatriz</td><td>Filme C</td><td>Filme D</td></tr>
+<tr><td>Carla</td><td>Filme E</td><td>Filme F</td></tr>
+<tr><th rowspan="3">Homens</th><td>Daniel</td><td>Filme G</td><td>Filme H</td></tr>
+<tr><td>Eduardo</td><td>Filme I</td><td>Filme J</td></tr>
+<tr><td>Felipe</td><td>Filme K</td><td>Filme L</td></tr>
+</table>
+<h2>O que revisar</h2>
+<ul><li><code>colspan="2"</code>: ocupa duas colunas.</li><li><code>rowspan="3"</code>: ocupa três linhas.</li><li>Quando uma célula ocupa espaço, não crie outras células por cima do espaço ocupado.</li></ul>
+</main></body></html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 04 — Tabelas grandes</title>
+
+<style>
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 24px; color: #222; background: #f5f7fa; }
+main { max-width: 950px; margin: auto; background: white; padding: 24px; border-radius: 12px; }
+h1 { color: #174a7e; }
+table { border-collapse: collapse; width: 100%; margin: 18px 0; }
+caption { font-weight: bold; padding: 10px; }
+th, td { border: 1px solid #555; padding: 10px; text-align: center; }
+thead, tfoot { background: #dceaf7; }
+tbody tr:nth-child(even) { background: #eef3f8; }
+.note { background: #fff6d9; padding: 12px; border-left: 4px solid #d5a400; }
+.wrapper { overflow-x: auto; }
+.sticky thead th { position: sticky; top: 0; background: #174a7e; color: white; }
+.wide { min-width: 780px; }
+</style>
+
+</head>
+<body><main>
+<h1>Aula 04 — Tabelas grandes</h1>
+<p>Separe a tabela em cabeçalho (<code>thead</code>), corpo (<code>tbody</code>) e rodapé (<code>tfoot</code>). Isso melhora a organização e a semântica.</p><table><caption>Vendas do mês</caption><thead><tr><th>Produto</th><th>Quantidade</th></tr></thead><tbody><tr><td>Teclado</td><td>12</td></tr><tr><td>Mouse</td><td>18</td></tr><tr><td>Monitor</td><td>5</td></tr></tbody><tfoot><tr><th>Total</th><td>35 itens</td></tr></tfoot></table>
+<p><a href="../LEIA-ME.txt">Voltar ao guia</a></p>
+</main></body>
+</html>
